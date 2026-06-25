@@ -12,7 +12,7 @@ These are real inspection photos of submersible pump impellers from [Pilot Techn
 
 Here's what the two classes actually look like:
 
-![OK vs Defective samples]
+
 <img width="1273" height="644" alt="ok vs def" src="https://github.com/user-attachments/assets/7639a187-7123-43b7-814f-27a2d09f41f8" />
 
 
@@ -28,7 +28,6 @@ Honestly, when I first looked at these, I couldn't always tell the difference my
 
 Confusion matrix for the better, transfer learning model:
 
-![Confusion matrix]
 <img width="522" height="440" alt="confusion matrix" src="https://github.com/user-attachments/assets/13c9386f-023d-4676-b0bd-2281577d5b11" />
 
 
