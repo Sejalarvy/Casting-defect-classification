@@ -12,7 +12,9 @@ These are real inspection photos of submersible pump impellers from [Pilot Techn
 
 Here's what the two classes actually look like:
 
-![OK vs Defective samples](ok%20vs%20def.png)
+![OK vs Defective samples]
+<img width="1273" height="644" alt="ok vs def" src="https://github.com/user-attachments/assets/7639a187-7123-43b7-814f-27a2d09f41f8" />
+
 
 Honestly, when I first looked at these, I couldn't always tell the difference myself — the defects are usually small chips or rough edges around the rim, not something obvious. That told me early on that this wasn't going to be an easy, near-perfect-accuracy problem unless I was careful about things like image resolution.
 
@@ -26,7 +28,9 @@ Honestly, when I first looked at these, I couldn't always tell the difference my
 
 Confusion matrix for the better, transfer learning model:
 
-![Confusion matrix](confusion%20matrix.png)
+![Confusion matrix]
+<img width="522" height="440" alt="confusion matrix" src="https://github.com/user-attachments/assets/13c9386f-023d-4676-b0bd-2281577d5b11" />
+
 
 ## Results
 
@@ -34,6 +38,8 @@ Confusion matrix for the better, transfer learning model:
 |---|---|
 | CNN trained from scratch | 73.8% |
 | MobileNetV2 (transfer learning) | **93.1%** |
+<img width="522" height="440" alt="MobileNetV2" src="https://github.com/user-attachments/assets/1d31b653-8960-4a28-b915-4fabd1c7d62c" />
+
 
 The jump from 74 to 93 percent is really the main finding here. It shows that with a small dataset, reusing features from a much bigger pretrained model can matter more than tweaking your own architecture.
 
